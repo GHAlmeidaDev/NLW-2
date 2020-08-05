@@ -2,7 +2,7 @@ import path from 'path';
 
 module.exports = {
   client: 'sqlite3',
-  connection: {
+  connections: {
     filename: path.resolve(__dirname, 'src', 'database', 'database.sqlite')
   },
   migrations: {
